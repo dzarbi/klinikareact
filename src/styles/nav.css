@@ -1,0 +1,24 @@
+nav.main {
+  height: 10vh;
+  background-color: #00adb5;
+ 
+}
+
+nav .main ul{
+  display: flex;
+  margin-left: 20%;
+
+}
+nav .main li {
+  font-family: 'Playfair Display', serif;
+  padding: 0 50px;
+  list-style: none;
+  line-height: 10vh;
+}
+
+nav.main li a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bold;
+}

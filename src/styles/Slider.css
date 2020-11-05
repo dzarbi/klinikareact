@@ -1,0 +1,59 @@
+
+.wrapSlider{
+position: relative;
+}
+
+.sliderPhoto1{
+  position: absolute;
+top:0;  
+left: 5%;
+animation: sliderPhoto1 8s linear infinite;
+}
+
+.sliderPhoto2{
+  bottom: 100%;
+  position: absolute;
+
+}
+.sliderPhoto3{
+  bottom: 100%;
+  position: absolute;
+}
+.text1Photo1 {
+  position: absolute;
+  right:17%;
+margin-top: 1%;
+  font-size: 2.3rem;
+  font-family: 'Raleway', sans-serif; 
+}
+.text2Photo1 {
+  font-size: 1.2rem;
+  position: absolute;
+  right: 14%;
+  margin-top: 6%;
+  text-align: center;
+  width: 70vh;
+  height: 30vh;
+  font-family: 'Raleway', sans-serif; 
+  font-weight: 400;
+}
+
+@keyframes sliderPhoto1 {
+  0% {
+    transform:translateX(0);
+    opacity: 0;
+  }
+  8%{
+    opacity: 0;
+  }
+
+  13%{opacity: 1;}
+  87%{opacity: 1;}
+  92%{opacity:0}
+
+
+  100%{
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+}

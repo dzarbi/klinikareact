@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif; */
+html {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+div.app {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #ddd;
+    margin: 0 auto;
+    box-shadow: 0 0 4px 0;
+}
+
+
+.logo{
+flex-basis: 100%;
+    background-image: url(../images/logo_transparent\ \(2\).png);
+   height: 40vh;
+   background-position: 50% 50%;
+   overflow: hidden;
+   background-size: auto 170%;
+   background-repeat: no-repeat;
+}
+.nav{
+    flex-basis: 100%;
+}
+.slider{
+   height: 40vh;
+    flex-basis: 100%;
+    background-color: #b49880;
+    overflow: hidden;
+}
+.page{
+    flex-basis: 100%;
+    background-color: green;
+    min-height: 200vh;
+}
+.footer{
+    flex-basis: 100%;
+    background-color: red;
+}
